@@ -29,7 +29,9 @@ class Controller extends BaseController
 
     public function getAllNotesDeEtudiant($id_etudiant)
     {
+        $matieres = model('MatiereModel')->findAll();
         $notes = $this->noteModel->where('id_etudiant', $id_etudiant)->findAll();
+        return view('ListeNotes', ['id_etudiant' => $id_etudiant, 'matieres' => $matieres, 'notes' => $notes]);
     }
 
     // UE, Intitule, Credits, Note, Resultat
@@ -42,5 +44,21 @@ class Controller extends BaseController
             $notes = $this->noteModel->where('id_etudiant', $id_etudiant)
                                     ->where('id_parcours_matiere', $pm['id'])->first();
         }
+    }
+
+    public function submitNewNote($id_etudiant)
+    {
+        $data = $this->request->getPost();
+        if (! $this->noteModel->save($data)) {
+            return redirect()->back()->with('errors', $this->noteModel->errors());
+        }
+        return redirect('Controller::getAllNotesDeEtudiant', $id_etudiant);
+    }
+
+    public function deleteNote($id_etudiant)
+    {
+        $id_note = $this->request->getGet('id_note');
+        $this->noteModel->delete($id_note);
+        return redirect('Controller::getAllNotesDeEtudiant', $id_etudiant);
     }
 }

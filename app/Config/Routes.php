@@ -13,6 +13,10 @@ $routes->post('/login', 'UserController::submitLogin');
 
 $routes->group('', ['filter' => 'auth'], function($routes) {
     $routes->get('/etudiants', 'Controller::getAllEtudiants');
-    $routes->get('/etudiants/(:num)', 'Controller::getAllNotesDeEtudiant/$1');
-    $routes->get('/etudiants/(:num)/(:segment)', 'Controller::getNoteDeEtudiant/$1/$2');
+    $routes->get('/etudiants/(:segment)/resultats', 'Controller::getAllResultatsDeEtudiant/$1');
+    $routes->get('/etudiants/(:segment)/resultats/(:segment)', 'Controller::getResultatDeEtudiant/$1/$2');
+
+    $routes->get('/etudiants/(:segment)/notes', 'Controller::getAllNotesDeEtudiant/$1');
+    $routes->post('/etudiants/(:segment)/notes/new', 'Controller::submitNewNote/$1');
+    $routes->get('/etudiants/(:segment)/notes/delete', 'Controller::deleteNote/$1');
 });
