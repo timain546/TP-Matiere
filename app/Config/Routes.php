@@ -7,6 +7,11 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/etudiants', 'Controller::getAllEtudiants');
-$routes->get('/etudiants/(:num)', 'Controller::getAllNotesDeEtudiant/$1');
-$routes->get('/etudiants/(:num)/(:segment)', 'Controller::getNoteDeEtudiant/$1/$2');
+$routes->get('/login', 'UserController::login');
+$routes->post('/login', 'UserController::submitLogin');
+
+$routes->group('', ['filter' => 'auth'], function($routes) {
+    $routes->get('/etudiants', 'Controller::getAllEtudiants');
+    $routes->get('/etudiants/(:num)', 'Controller::getAllNotesDeEtudiant/$1');
+    $routes->get('/etudiants/(:num)/(:segment)', 'Controller::getNoteDeEtudiant/$1/$2');
+});
