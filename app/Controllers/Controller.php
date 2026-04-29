@@ -4,6 +4,8 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\EtudiantModel;
+use App\Models\NoteModel;
+use App\Models\ParcoursMatiereModel;
 use CodeIgniter\HTTP\ResponseInterface;
 
 class Controller extends BaseController

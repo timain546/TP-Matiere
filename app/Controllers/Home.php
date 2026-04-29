@@ -14,8 +14,4 @@ class Home extends BaseController
         return view('dashboard');
     }
 
-    public function list(): string
-    {
-        return view('list');
-    }
 }
