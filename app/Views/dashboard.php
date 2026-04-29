@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SysInfo — Tableau de bord</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="<?=base_url("assets/css/style.css"); ?>" />
 </head>
 <body>
 
@@ -24,7 +24,7 @@
 
     <div class="sidebar-section">Navigation</div>
 
-    <a href="dashboard.html" class="nav-item active">
+    <a href="<?= base_url("dashboard"); ?>" class="nav-item active">
       <svg viewBox="0 0 24 24"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
       Tableau de bord
     </a>
