@@ -64,6 +64,24 @@
       </div>
 
     </div>
+
+    <div class="remember-row">
+      <label>
+        <input type="checkbox" checked />
+        Se souvenir de moi
+      </label>
+      <a href="#">Mot de passe oublié ?</a>
+    </div>
+
+    <a href="<?= base_url("dashboard"); ?>" class="btn btn-primary btn-full">
+      <svg viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+      Se connecter
+    </a>
+
+    <div class="login-footer">
+      Pas encore de compte ? <a href="#">Contactez votre administrateur</a>
+    </div>
+
   </div>
 </form>
 

@@ -11,3 +11,502 @@ in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
  8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
  9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
 10 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 07:46:11 --> Error: Class "Controller" not found
+[Method: GET, Route: list]
+in APPPATH/Views/list.php on line 2.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(19): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->list()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 07:46:31 --> Error: Class "Controller" not found
+[Method: GET, Route: list]
+in APPPATH/Views/list.php on line 2.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(19): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->list()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 07:46:39 --> Error: Class "Controller" not found
+[Method: GET, Route: list]
+in APPPATH/Views/list.php on line 2.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(19): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->list()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 07:46:39 --> Error: Class "Controller" not found
+[Method: GET, Route: list]
+in APPPATH/Views/list.php on line 2.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(19): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->list()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 07:47:14 --> Error: Class "Controller" not found
+[Method: GET, Route: list]
+in APPPATH/Views/list.php on line 2.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(19): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->list()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 07:47:15 --> Error: Class "Controller" not found
+[Method: GET, Route: list]
+in APPPATH/Views/list.php on line 2.
+ 1 SYSTEMPATH/View/View.php(240): include()
+ 2 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/Home.php(19): view()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Home->list()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 07:54:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 07:54:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 07:55:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 07:55:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 07:56:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 07:56:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 07:57:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access****denied****for****user****'****'@'localhost'****(using****password:****YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 07:57:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access****denied****for****user****'****'@'localhost'****(using****password:****YES)
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 08:11:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 08:11:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 08:13:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 08:13:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 08:15:41 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'Tp_Matiere' in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'Tp_Matiere' in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 08:15:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'Tp_Matiere'
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+ERROR - 2026-04-29 08:15:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'Tp_Matiere' in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php(201): mysqli->real_connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#13 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'Tp_Matiere' in /home/aina/TP-Matiere/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/aina/TP-Matiere/system/Database/BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/aina/TP-Matiere/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/aina/TP-Matiere/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/aina/TP-Matiere/system/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/aina/TP-Matiere/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 /home/aina/TP-Matiere/app/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+#6 /home/aina/TP-Matiere/system/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+#7 /home/aina/TP-Matiere/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#8 /home/aina/TP-Matiere/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/aina/TP-Matiere/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 /home/aina/TP-Matiere/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/aina/TP-Matiere/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#12 /home/aina/TP-Matiere/system/rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2026-04-29 08:15:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'Tp_Matiere'
+[Method: GET, Route: etudiants]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Controller.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
+CRITICAL - 2026-04-29 08:24:51 --> ErrorException: Undefined array key "matricule"
+[Method: GET, Route: etudiants]
+in APPPATH/Views/ListeEtudiants.php on line 192.
+ 1 APPPATH/Views/ListeEtudiants.php(192): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/aina/TP-Matiere/app/Views/ListeEtudiants.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Controller.php(27): view()
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Controller->findAllEtudiants()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/aina/TP-Matiere/public/index.php')
