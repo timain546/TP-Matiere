@@ -18,5 +18,5 @@ $routes->group('', ['filter' => 'auth'], function($routes) {
 
     $routes->get('/etudiants/(:segment)/notes', 'Controller::getAllNotesDeEtudiant/$1');
     $routes->post('/etudiants/(:segment)/notes/new', 'Controller::submitNewNote/$1');
-    $routes->get('/etudiants/(:segment)/notes/delete', 'Controller::deleteNote/$1');
+    $routes->get('/etudiants/(:segment)/notes/delete/(:num)', 'Controller::deleteNote/$1/$2');
 });

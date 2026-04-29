@@ -55,7 +55,7 @@ class Controller extends BaseController
         return redirect('Controller::getAllNotesDeEtudiant', $id_etudiant);
     }
 
-    public function deleteNote($id_etudiant)
+    public function deleteNote($id_etudiant, $id_note)
     {
         $id_note = $this->request->getGet('id_note');
         $this->noteModel->delete($id_note);

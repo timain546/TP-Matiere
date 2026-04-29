@@ -112,7 +112,7 @@
 
         <!-- Form for adding note -->
         <div class="form-card" style="margin-bottom: 20px;">
-          <form action="<?= base_url('notes/add') ?>" method="post" style="display: flex; gap: 10px; align-items: center;">
+          <form action="<?= url_to('Controller::submitNewNote', $id_etudiant) ?>" method="post" style="display: flex; gap: 10px; align-items: center;">
             <label for="matiere">Matière:</label>
             <select name="code_matiere" id="matiere" required>
               <option value="">Sélectionner une matière</option>
@@ -181,7 +181,7 @@
                   <td><?= esc($note['note']) ?></td>
                   <td>
                     <div class="td-actions">
-                      <a href="<?= base_url('notes/' . $note['id'] . '/delete') ?>" class="action-btn del" title="Supprimer"><svg viewBox="0 0 24 24">
+                      <a href="<?= url_to('Controller::deleteNote', $id_etudiant, $note['id']) ?>" class="action-btn del" title="Supprimer"><svg viewBox="0 0 24 24">
                           <polyline points="3 6 5 6 21 6" />
                           <path d="M19 6l-1 14H6L5 6" />
                           <path d="M10 11v6M14 11v6" />
