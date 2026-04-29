@@ -21,7 +21,7 @@ class Controller extends BaseController
         $this->parcoursMatiereModel = model(ParcoursMatiereModel::class);
     }
 
-    public function findAllEtudiants()
+    public function getAllEtudiants()
     {
         $etudiants = $this->etudiantModel->findAll();
         return view('ListeEtudiants', ['etudiants' => $etudiants]);
